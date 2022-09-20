@@ -1,0 +1,58 @@
+.skill-page{
+    position: relative;
+    left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row ;
+    color: white;
+    opacity: 0;
+    height: 100vh;
+    animation: fadeIn 1s forwards;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        will-change: contents;
+        z-index: 1;
+}
+.text-zone1{
+    width: 50%;
+    animation: fadeIn 1s forwards;
+    color: rgb(193, 199, 204);
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+        opacity: 0;
+       
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        will-change: contents;
+        z-index: 1;
+}
+
+
+.skillbarcontainer{
+    width: 40%;
+    animation: backInRight 1s ;
+    animation-fill-mode: forwards;
+}
+@media only screen and (max-width: 786px){
+    .skill-page{
+        position: relative;
+        left: 15%;
+        height: 150vh;
+        flex-direction: column ;
+    }
+    .text-zone1{
+        padding-left: 1.5rem;
+        width: 100%;
+    }
+    .skillbarcontainer{
+        padding-left: 0;
+        width: 100%;
+    }
+    h1{
+     font-size: 5rem !important;
+    }
+
+}

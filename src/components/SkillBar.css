@@ -1,0 +1,209 @@
+
+.container_skillbar {
+    width: 90%;
+    overflow: hidden;
+    
+}
+.col {
+    width: 80%;
+    margin: 0 5%;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    line-height: 2em;
+    padding: 5% 0;
+}
+
+.skill {
+    list-style: none;
+    padding-top: 5px;
+}
+.skill li {
+    margin-bottom: 4rem;
+    background: #0d2636;
+    height: 6px;
+    border-radius: 3px;
+    border-left: 1px solid #111;
+    border-top: 1px solid #111;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.skill li em {
+    position: relative;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+    color: #dedede;
+    top: -28px;
+}
+.blueline {
+    height: 3px;
+    margin: 2px 0;
+    background: #0084ff;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.6);
+}
+.greenline {
+    height: 3px;
+    margin: 2px 0;
+    background: #a5f700;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(173, 255, 47, 0.4);
+}
+.redline {
+    height: 3px;
+    margin: 2px 0;
+    background: #ff4500;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(255, 69, 0, 0.4);
+}
+.yellowline {
+    height: 3px;
+    margin: 2px 0;
+    background: #f2ff00;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(255, 69, 0, 0.4);
+}
+.pinkline {
+    height: 3px;
+    margin: 2px 0;
+    background: #dd00ff;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(255, 69, 0, 0.4);
+}
+.cyanline {
+    height: 3px;
+    margin: 2px 0;
+    background: #00ffc8;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(255, 69, 0, 0.4);
+}
+.orangeline {
+    height: 3px;
+    margin: 2px 0;
+    background: #ffa200;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(255, 69, 0, 0.4);
+}
+
+/*programacion*/
+.html {
+    width: 95%;
+    animation: html 2s ease-out;
+}
+.css {
+    width: 85%;
+    animation: css 2s ease-out;
+}
+.react {
+    width: 80%;
+    animation: react 2s ease-out;
+}
+.javascript {
+    width: 70%;
+    animation: javascript 2s ease-out;
+}
+.node {
+    width: 70%;
+    animation: node 2s ease-out;
+}
+.express{
+    width: 60%;
+    animation: express 2s ease-out;
+}
+.mongo{
+    width: 75%;
+    animation: mongo 2s ease-out;
+}
+
+
+/*programacion*/
+@keyframes html {
+    0% {
+        width: 0px;
+   }
+    100% {
+        width: 95%;
+   }
+}
+@keyframes css {
+    0% {
+        width: 0px;
+   }
+    100% {
+        width: 85%;
+   }
+}
+@keyframes react {
+    0% {
+        width: 0px;
+   }
+    100% {
+        width: 80%;
+   }
+}
+@keyframes javascript {
+    0% {
+        width: 0px;
+   }
+    100% {
+        width: 70%;
+   }
+}
+@keyframes node {
+    0% {
+        width: 0px;
+   }
+    100% {
+        width: 70%;
+   }
+}
+/*plataformas*/
+@keyframes express {
+    0% {
+        width: 0px;
+   }
+    100% {
+        width: 60%;
+   }
+}
+@keyframes mongo {
+    0% {
+        width: 0px;
+   }
+    100% {
+        width: 75%;
+   }
+}
+
+/*media queries*/
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 2.2em;
+   }
+}
+@media (max-width: 980px) {
+    h2 {
+        font-size: 1.8em;
+   }
+}
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.4em;
+   }
+}
+@media (max-width: 580px) {
+    h2 {
+        font-size: 1.1em;
+        padding: 10px 0;
+   }
+}
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2.2em;
+        padding: 10px 0 15px 0;
+   }
+    .col {
+        width: 90%;
+   }
+}
