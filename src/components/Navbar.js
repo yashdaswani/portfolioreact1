@@ -7,7 +7,7 @@ import GitHub from '../../node_modules/@material-ui/icons/GitHub'
 import Instagram from '../../node_modules/@material-ui/icons/Instagram'
 import Linkdin from '../../node_modules/@material-ui/icons/LinkedIn'
 import  Reviews  from '../../node_modules/@material-ui/icons/RateReview'
-import skill from "../skill.png"
+import { Link } from 'react-router-dom'
 import yd from "../yd.png"
 const Navbar = () => {
   return (
@@ -26,9 +26,9 @@ const Navbar = () => {
                     </div>
                    </a>
                    
-                   <a href='/about' className='info'>
+                   <Link to='/about' className='info'>
                    <Info/>
-                   </a>
+                   </Link>
                    <a href='/skill' className='skillimg'>
                    <Reviews/>
                    </a>
