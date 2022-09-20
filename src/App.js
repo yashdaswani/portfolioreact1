@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import { useEffect,useState } from "react";
 import Navbar from './components/Navbar';
@@ -23,20 +23,12 @@ function App() {
    <Navbar/>
   
    <Router>
-   <Switch>
-            <Route exact path="/">
-              {loading? <Loader/>:<Home/>}
-            </Route>
-            <Route exact path="/about">
-            {loading? <Loader/>:<About/>}
-            </Route> 
-            <Route exact path="/contact">
-            {loading? <Loader/>:<Contact/>}
-            </Route> 
-            <Route exact path="/skill">
-            {loading? <Loader/>:<Skills/>}
-            </Route>
-          </Switch>
+      <Routes>
+        <Route exact path="/" element= {loading? <Loader/>:<Home/>} />
+        <Route exact path="/about" element= {loading? <Loader/>:<About/>} />
+        <Route exact path="/skill" element= {loading? <Loader/>:<Skills/>} />
+        <Route exact path="/contact" element= {loading? <Loader/>:<Contact/>} />
+        </Routes>
       </Router>
    </>
   );
