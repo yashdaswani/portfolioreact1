@@ -7,14 +7,13 @@ import GitHub from '../../node_modules/@material-ui/icons/GitHub'
 import Instagram from '../../node_modules/@material-ui/icons/Instagram'
 import Linkdin from '../../node_modules/@material-ui/icons/LinkedIn'
 import  Reviews  from '../../node_modules/@material-ui/icons/RateReview'
-import skill from "../skill.png"
 import yd from "../yd.png"
 const Navbar = () => {
   return (
     <div className='navbar'>
             <div className='logo'>
               <a href='/'>
-              <img src={yd} style={{width:"4rem"}} /> 
+              <img src={yd} alt="..."style={{width:"4rem"}} /> 
               </a>
             </div>
         <div className='nav'>
@@ -42,7 +41,7 @@ const Navbar = () => {
                 <a href='https://github.com/yashdaswani'>
                     <GitHub/>
                 </a>
-                <a href='https://www.instagram.com/yash__daswani' target="_blank">
+                <a href='https://www.instagram.com/yash__daswani' >
                     <Instagram/>
                 </a>
                 <a href='https://www.linkedin.com/in/yash-daswani-a3b347202/'>

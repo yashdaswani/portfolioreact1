@@ -1,32 +1,12 @@
 import { useEffect, useState } from 'react'
-import Navbar from './Navbar'
-// import { Link } from 'react-router-dom'
-// import Loader from 'react-loaders'
 import './Home.css'
-import Animated from './Animated.js'
 import Y from '../Y.png'
 import ph from "../ph.jpg"
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['a','s', 'h', ' ', 'D','a','s','w','a','n','i']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+ 
 
 
   useEffect(()=>{
@@ -82,7 +62,7 @@ const Home = () => {
             
           </h1>
           <h2>Web Developer / Computer Science Enginner / Learner</h2>
-          <a href="#" className="contact-button">
+          <a href="/" className="contact-button">
                 <div>
                     <span className="bg"></span>
                     <span className="base"></span>
