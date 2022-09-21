@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import { useEffect,useState } from "react";
 import Navbar from './components/Navbar';
@@ -21,15 +22,18 @@ function App() {
    <>
    
    <Navbar/>
-  
-   <Router>
+   <BrowserRouter>
       <Routes>
-        <Route exact path="/" element= {loading? <Loader/>:<Home/>} />
-        <Route exact path="/about" element= {loading? <Loader/>:<About/>} />
-        <Route exact path="/skill" element= {loading? <Loader/>:<Skills/>} />
-        <Route exact path="/contact" element= {loading? <Loader/>:<Contact/>} />
-        </Routes>
-      </Router>
+        <Route path="/">
+          <Route index element={  
+                loading? <Loader/>:<Home/>} />
+          <Route path="about" element={loading? <Loader/>:<About/>} />
+          <Route path="skill" element={loading? <Loader/>:<Skills/>} />
+          <Route path="contact" element={loading? <Loader/>:<Contact/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  
    </>
   );
 }
