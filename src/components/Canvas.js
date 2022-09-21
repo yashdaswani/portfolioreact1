@@ -41,7 +41,7 @@
 
 //   return (
 //     <div>
-//       <span class="content"></span>
+//       <span className="content"></span>
 //       <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
 //     </div>
 //   )
@@ -54,7 +54,7 @@
 
 // // const Canvas = () => {
 // //   return (
-// //     <div class="skills-charts">
+// //     <div className="skills-charts">
 // //             <div id="myCanvasContainer">
 // //                 <canvas width="500" height="500" id="myCanvas">
 // //                     <ul id="tags">

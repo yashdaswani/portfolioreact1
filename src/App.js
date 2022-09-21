@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import { useEffect,useState } from "react";
@@ -27,9 +26,9 @@ function App() {
         <Route path="/">
           <Route index element={  
                 loading? <Loader/>:<Home/>} />
-          <Route path="about" element={loading? <Loader/>:<About/>} />
-          <Route path="skill" element={loading? <Loader/>:<Skills/>} />
-          <Route path="contact" element={loading? <Loader/>:<Contact/>} />
+          <Route path="/about" element={loading? <Loader/>:<About/>} />
+          <Route path="/skill" element={loading? <Loader/>:<Skills/>} />
+          <Route path="/contact" element={loading? <Loader/>:<Contact/>} />
         </Route>
       </Routes>
     </BrowserRouter>
