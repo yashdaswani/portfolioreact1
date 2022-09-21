@@ -22,15 +22,12 @@ function App() {
    
    <Navbar/>
    <BrowserRouter>
-      <Routes>
-        <Route path="/">
-          <Route index element={  
-                loading? <Loader/>:<Home/>} />
+           <Routes>
+          <Route path="/"  element={ loading? <Loader/>:<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/skill" element={loading? <Loader/>:<Skills/>} />
           <Route path="/contact" element={loading? <Loader/>:<Contact/>} />
-        </Route>
-      </Routes>
+          </Routes>
     </BrowserRouter>
   
    </>
