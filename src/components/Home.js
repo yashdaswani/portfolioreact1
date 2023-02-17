@@ -61,7 +61,7 @@ const Home = () => {
             <span className={`${letterClass} _14`} >.</span>
             
           </h1>
-          <h2>Web Developer / Computer Science Enginner / Learner</h2>
+          <h2>Web Developer / Game Developer / Computer Science Enginner / Learner</h2>
           <a href="/" className="contact-button">
                 <div>
                     <span className="bg"></span>

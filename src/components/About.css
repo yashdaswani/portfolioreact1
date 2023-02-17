@@ -8,6 +8,17 @@
     height: 100vh;
 }
 
+.heading1 {
+    padding: 3rem 0;
+    height: 20%;
+}
+
+.about-heading h1 span {
+    font-size: 3.5rem !important;
+}
+
+
+
 .text-zone{
     width:40%;
     height: 60%;
@@ -19,7 +30,7 @@
         min-height: 566px;
         opacity: 0;
         position: absolute;
-        top: 22%;
+        top: 30%;
         left: 7%;
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
@@ -44,6 +55,10 @@
     .about-page{
         flex-direction: row;
     }
+
+    .about-heading h1 span {
+        font-size: 2rem !important;
+    }
     .text-zone{
         width: 80%;
         top: 5%;
@@ -53,7 +68,7 @@
     .about_sphere{
         height: 10%;
         position: relative;
-        top: 20%;
+        top: 14rem;
         left: 8%;
     }
 }

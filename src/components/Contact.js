@@ -14,7 +14,7 @@ const Contact = () => {
       setLetterClass("text-animate-hover");
     }, 3000);
   }, []);
-
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -41,20 +41,22 @@ const Contact = () => {
     <>
       <div className="contact-page">
         <div className="text-zone1 contact-text-zone">
+          <div className="contact-heading">
           <h1
             style={{
-              marginBottom: "0.5rem",
               color: "#05e2ff",
               fontFamily: "-moz-initial",
               fontSize: "3.5rem",
             }}
           >
+            
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['G','e','t','','I','n','','T','o','u','c','h']}
               idx={15}
             />
           </h1>
+          </div>
           <p>
             I am interested in freelance opportunities - especially ambitious or
             large projects. However, if you have other request or question,

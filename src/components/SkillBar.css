@@ -1,22 +1,24 @@
 
 .container_skillbar {
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     
 }
 .col {
     width: 80%;
-    margin: 0 5%;
     position: relative;
     float: left;
     font-size: 12px;
     line-height: 2em;
-    padding: 5% 0;
+    padding: 5% 0%;
+    margin: 0%;
+
 }
 
 .skill {
     list-style: none;
     padding-top: 5px;
+    margin: 0%;
 }
 .skill li {
     margin-bottom: 4rem;

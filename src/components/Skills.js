@@ -13,15 +13,17 @@ const Skills = () => {
   }, [])
   return (
     <>
-    <div className="skill-page " >
+    <div className="skill-page " > 
         <div className="text-zone1" >
-          <h1 style={{marginBottom:"30px",color:"#05e2ff",fontFamily:"-moz-initial",fontSize:"3.5rem"}}>
+          <div className='about-heading'>
+          <h1 style={{color:"#05e2ff",fontFamily:"-moz-initial",fontSize:"3.5rem"}}>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['M','y',' ','S','k','i','l','l','s']}
               idx={15}
               />
           </h1>
+          </div>
           <p>
           I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, ReactJS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
           </p>

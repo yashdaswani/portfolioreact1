@@ -18,5 +18,5 @@ const SkillBar = () => {
   </div>
   )
 }
-
+ 
 export default SkillBar

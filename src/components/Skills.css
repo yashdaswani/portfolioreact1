@@ -37,22 +37,30 @@
     animation-fill-mode: forwards;
 }
 @media only screen and (max-width: 786px){
+
     .skill-page{
-        position: relative;
+        position: absolute;
+        top: 15%;
         left: 15%;
         height: 150vh;
         flex-direction: column ;
     }
+    
     .text-zone1{
         padding-left: 1.5rem;
         width: 100%;
     }
     .skillbarcontainer{
+        padding-top: 3rem;
         padding-left: 0;
         width: 100%;
     }
-    h1{
-     font-size: 5rem !important;
+    .about-heading h1 span {
+        font-size: 2rem !important;
+    }
+
+    .skill{
+        padding-left: 0% !important;
     }
 
 }

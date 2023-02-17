@@ -18,13 +18,16 @@ const About = () => {
 
       <div className="about-page ">
         <div className="text-zone " >
-          <h1 style={{marginBottom:"30px",color:"#05e2ff",fontFamily:"-moz-initial",fontSize:"3.5rem"}}>
+          <div className='about-heading heading1'>
+          <h1 style={{color:"#05e2ff",fontFamily:"-moz-initial"}}>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
               idx={15}
+              style={{fontSize:"5rem"}}
               />
           </h1>
+          </div>
           <p>
             Hello! My name is Yash Kumar Daswani, a self-taught passionate Full-Stack Web Developer from India .I enjoy creating things that live on the internet.
             I've made countless side projects and I also posses magical powers of using react to build delightful user interfaces.
