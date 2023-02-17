@@ -8,15 +8,14 @@ import Instagram from '../../node_modules/@material-ui/icons/Instagram'
 import Linkdin from '../../node_modules/@material-ui/icons/LinkedIn'
 import  Reviews  from '../../node_modules/@material-ui/icons/RateReview'
 import yd from "../yd.png"
-
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar'>
             <div className='logo'>
-              <a href='/'>
+              <Link to='/'>
               <img src={yd} alt="..."style={{width:"4rem"}} /> 
-              </a>
+              </Link>
             </div>
         <div className='nav'>
           <div className='nav-centre'>
@@ -40,15 +39,15 @@ const Navbar = () => {
               </div>
 
               <div className='nav_end'>
-                <a href='https://github.com/yashdaswani'>
+                <Link to='https://github.com/yashdaswani'>
                     <GitHub/>
-                </a>
-                <a href='https://www.instagram.com/yash__daswani' >
+                </Link>
+                <Link to='https://www.instagram.com/yash__daswani' >
                     <Instagram/>
-                </a>
-                <a href='https://www.linkedin.com/in/yash-daswani-a3b347202/'>
+                </Link>
+                <Link to='https://www.linkedin.com/in/yash-daswani-a3b347202/'>
                     <Linkdin/>
-                </a>
+                </Link>
               </div>
               </div>
     </div>

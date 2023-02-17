@@ -20,15 +20,16 @@ function App() {
   return (
    <>
    
-   <Navbar/>
    <BrowserRouter>
-           <Routes>
+   <Navbar/>
+          <Routes>
           <Route path="/"  element={ loading? <Loader/>:<Home/>} />
-          <Route path="/about" element={<About/>} />
+          <Route path="/about" element={ loading?<Loader/>:<About/>} />
           <Route path="/skill" element={loading? <Loader/>:<Skills/>} />
           <Route path="/contact" element={loading? <Loader/>:<Contact/>} />
           </Routes>
     </BrowserRouter>
+  
   
    </>
   );
