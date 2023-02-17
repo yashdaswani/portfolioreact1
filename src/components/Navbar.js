@@ -8,6 +8,8 @@ import Instagram from '../../node_modules/@material-ui/icons/Instagram'
 import Linkdin from '../../node_modules/@material-ui/icons/LinkedIn'
 import  Reviews  from '../../node_modules/@material-ui/icons/RateReview'
 import yd from "../yd.png"
+
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -18,23 +20,23 @@ const Navbar = () => {
             </div>
         <div className='nav'>
           <div className='nav-centre'>
-             <a href='/'>
+             <Link to='/'>
                     <div className='icon'>
                    <Home/>
 
                     </div>
-                   </a>
+                   </Link>
                    
-                   <a href='/about' className='info'>
+                   <Link to='/about' className='info'>
                    <Info/>
-                   </a>
-                   <a href='/skill' className='skillimg'>
+                   </Link>
+                   <Link to='/skill' className='skillimg'>
                    <Reviews/>
-                   </a>
+                   </Link>
                    
-                   <a href='/contact' className='contact'>
+                   <Link to='/contact' className='contact'>
                    <ContactMail/>
-                   </a>
+                   </Link>
               </div>
 
               <div className='nav_end'>
