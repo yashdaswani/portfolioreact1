@@ -25,7 +25,7 @@ const GameDevProjects = () => {
     <div className="GameDevProjectsCont ">
       <div className="wrapper_GameDevProjects ">
         <div className="heading_GameDevProjects ">
-          <h1 style={{ color: "#05e2ff", fontFamily: "-moz-initial" }}>
+          <h1 className="firstH1" style={{ color: "#05e2ff", fontFamily: "-moz-initial" }}>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={[
@@ -34,11 +34,17 @@ const GameDevProjects = () => {
                 "M",
                 "E",
                 " ",
-                " ",
                 "D",
                 "E",
                 "V",
                 " ",
+              ]}
+              idx={18}
+            />
+          </h1><h1 style={{ color: "#05e2ff", fontFamily: "-moz-initial" }}>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={[
                 "P",
                 "R",
                 "O",
