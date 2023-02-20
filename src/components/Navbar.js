@@ -45,15 +45,15 @@ const Navbar = () => {
               </div>
 
               <div className='nav_end'>
-                <Link to='https://github.com/yashdaswani'>
+                <a href='https://github.com/yashdaswani'>
                     <GitHub/>
-                </Link>
-                <Link to='https://www.instagram.com/yash__daswani' >
+                </a>
+                <a href='https://www.instagram.com/yash__daswani' >
                     <Instagram/>
-                </Link>
-                <Link to='https://www.linkedin.com/in/yash-daswani-a3b347202/'>
+                </a>
+                <a href='https://www.linkedin.com/in/yash-daswani-a3b347202/'>
                     <Linkdin/>
-                </Link>
+                </a>
               </div>
               </div>
     </div>
