@@ -19,19 +19,21 @@ const GameDevProjects = () => {
     setTimeout(() => {
       setLetterClass("text-animate-hover");
     }, 3000);
-  }, []);
+  }, [])
+
   return (
     <div className="GameDevProjectsCont ">
       <div className="wrapper_GameDevProjects ">
         <div className="heading_GameDevProjects ">
           <h1 style={{ color: "#05e2ff", fontFamily: "-moz-initial" }}>
             <AnimatedLetters
-              letterclassName={letterClass}
+              letterClass={letterClass}
               strArray={[
                 "G",
                 "A",
                 "M",
                 "E",
+                " ",
                 " ",
                 "D",
                 "E",
@@ -47,13 +49,12 @@ const GameDevProjects = () => {
                 "S",
               ]}
               idx={18}
-              style={{ fontSize: "5rem" }}
             />
           </h1>
         </div>
         <div className="projects_card">
           <div className="row">
-            <div className="game_card col-12 col-sm-4 col-md-4 col-lg-4 d-flex flex-column justify-content-between">
+            <div className="game_card col-12 col-sm-4 col-md-4 col-lg-4 d-flex flex-column justify-content-around">
               <div className="card glass" style={{ width: "16rem" }}>
               <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
@@ -80,7 +81,7 @@ const GameDevProjects = () => {
                 <div className="card-body">
                    <h5 style={{ color: "#05e2ff", fontFamily: "-moz-initial" }}>
             <AnimatedLetters
-              letterclassName={letterClass}
+              letterClass={letterClass}
               strArray={[
                 "M",
                 "E",
@@ -191,7 +192,7 @@ const GameDevProjects = () => {
             
             
             
-             <div className="game_card col-12 col-sm-4 col-md-4 col-lg-4 d-flex flex-column justify-content-between">
+             <div className="game_card col-12 col-sm-4 col-md-4 col-lg-4 d-flex flex-column justify-content-around">
               <div className="card glass" style={{ width: "16rem" }}>
               <div id="carouselExampleAutoplaying1" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
@@ -217,7 +218,7 @@ const GameDevProjects = () => {
                 <div className="card-body">
                 <h5 style={{ color: "#05e2ff", fontFamily: "-moz-initial" }}>
             <AnimatedLetters
-              letterclassName={letterClass}
+              letterClass={letterClass}
               strArray={[
                 "C",
                 "O",
@@ -278,7 +279,7 @@ const GameDevProjects = () => {
             </div> 
             
             
-             <div className="game_card col-12 col-sm-4 col-md-4 col-lg-4 d-flex flex-column justify-content-between">
+             <div className="game_card col-12 col-sm-4 col-md-4 col-lg-4 d-flex flex-column justify-content-around">
               <div className="card glass" style={{ width: "16rem" }}>
               <div id="carouselExampleAutoplaying2" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
@@ -304,7 +305,7 @@ const GameDevProjects = () => {
                 <div className="card-body">
                 <h5 style={{ color: "#05e2ff", fontFamily: "-moz-initial" }}>
             <AnimatedLetters
-              letterclassName={letterClass}
+              letterClass={letterClass}
               strArray={[
                 "2",
                 "0",
