@@ -89,6 +89,10 @@
 .nav-centre a.skillimg:after {
     content: 'SKILLS';
 }
+
+.nav-centre a.gameprojects:after {
+    content: 'PROJECTS';
+}
 .nav-centre a.contact:after {
     content: 'CONTACT';
 }

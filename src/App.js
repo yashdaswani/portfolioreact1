@@ -7,6 +7,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Loader from "./components/Loader";
+import GameDevProjects from "./components/GameDevProjects";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={ loading?<Loader/>:<About/>} />
           <Route path="/skill" element={loading? <Loader/>:<Skills/>} />
           <Route path="/contact" element={loading? <Loader/>:<Contact/>} />
+          <Route path="/gameProjects" element={loading? <Loader/>:<GameDevProjects/>} />
           </Routes>
     </BrowserRouter>
   

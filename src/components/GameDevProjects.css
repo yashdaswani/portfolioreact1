@@ -1,0 +1,79 @@
+.GameDevProjectsCont{
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper_GameDevProjects{
+    width: 100vw;
+}
+.heading_GameDevProjects{
+    width: 100vw;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.projects_card{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    color: aliceblue;
+    background: rgba( 248, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.game_card{
+    margin-bottom: 2rem;
+}
+.projectsTitleName{
+    font-size: 1rem !important;
+}
+.buttoncont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.download{
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+   
+}
+.download:hover{
+    background-color: rgb(33, 32, 31);
+    color: aliceblue;
+}
+.readmorebtn{
+    color: aliceblue !important;
+    background: rgba(248, 255, 255, 0); 
+    margin-bottom: 0.8rem;
+    height: 3rem;
+   width: 3rem;
+}
+.accordion-button{
+    color: aliceblue !important;
+}
+.accordion-button:not(.collapsed) {
+    color: aliceblue !important;
+    background-color: rgba(240, 248, 255, 0);
+}
+@media only screen and (max-width: 786px){
+
+    .GameDevProjectsCont{
+        position: relative;
+        left: 18%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,13 +1,10 @@
 import { useEffect, useState } from 'react'
 import './Home.css'
 import Y from '../Y.png'
-import ph from "../ph.jpg"
+import img from "../yugfd.png"
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-
- 
-
 
   useEffect(()=>{
     setTimeout(()=>{
@@ -72,10 +69,10 @@ const Home = () => {
                 </div>
             </a>
         </div>
-        <div className="logo-container " >
+        <div className="logo-container" >
           <img
-            className="solid-logo "
-            src={ph}
+            className="borderanimation"
+            src={img}
             alt="JavaScript,  Developer"
             />
         </div>

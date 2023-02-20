@@ -7,6 +7,7 @@ import GitHub from '../../node_modules/@material-ui/icons/GitHub'
 import Instagram from '../../node_modules/@material-ui/icons/Instagram'
 import Linkdin from '../../node_modules/@material-ui/icons/LinkedIn'
 import  Reviews  from '../../node_modules/@material-ui/icons/RateReview'
+import  Gameprojectsicon  from '../../node_modules/@material-ui/icons/Drafts'
 import yd from "../yd.png"
 import { Link } from 'react-router-dom'
 const Navbar = () => {
@@ -29,8 +30,13 @@ const Navbar = () => {
                    <Link to='/about' className='info'>
                    <Info/>
                    </Link>
+
                    <Link to='/skill' className='skillimg'>
                    <Reviews/>
+                   </Link>
+                   
+                   <Link to='/gameProjects' className='gameprojects'>
+                   <Gameprojectsicon/>
                    </Link>
                    
                    <Link to='/contact' className='contact'>
