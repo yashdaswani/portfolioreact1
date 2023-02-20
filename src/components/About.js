@@ -29,13 +29,11 @@ const About = () => {
           </h1>
           </div>
           <p>
-            Hello! My name is Yash Kumar Daswani, a self-taught passionate Full-Stack Web Developer from India .I enjoy creating things that live on the internet.
-            I've made countless side projects and I also posses magical powers of using react to build delightful user interfaces.
+          Hello! My name is Yash Kumar Daswani, and I am an enthusiastic self-taught Full-Stack Web Engineer from India. I adore producing stuff for the internet. I've created a plethora of side projects and have the amazing ability to use react to create wonderful user experiences.
+
           </p>
           <p align="LEFT">
-            Currently, I'm persuing  B-Tech degree in Computer Science Branch from Gurukul Kangri Deemed to be University, learning Web
-            development using react, and trying to do competitive programming in
-            C++.
+          Currently pursuing a B-Tech degree in Computer Science from Gurukul Kangri Vishwavidhalaya Deemed to be University, studied web development using react and attempting competitive programming in C++.
           </p>
          
         <a href="https://drive.google.com/file/d/13X2jCQpKJWF8mSU3WiMBusB_PhL3N_yF/view?usp=drivesdk" className="contact-button">

@@ -25,10 +25,10 @@ const Skills = () => {
           </h1>
           </div>
           <p>
-          I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, ReactJS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
+          I build effective responsive websites that are quick to load, simple to use, and constructed according to best practises. Front-end programming, including HTML, CSS, JavaScript, and ReactJS, as well as the creation of small and medium-sized web applications, customised plugins, features, animations, and interactive layouts, is my primary area of competence.
           </p>
           <p align="LEFT">
-          I also have full-stack developer experience with Nodejs, Expressjs, MongoDb and others .
+          In addition, I have full-stack development expertise with Nodejs, Expressjs, MongoDb, and other technologies.
           </p>
           
         </div>

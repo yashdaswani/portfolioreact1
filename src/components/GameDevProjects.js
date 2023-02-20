@@ -203,13 +203,13 @@ const GameDevProjects = () => {
               <div id="carouselExampleAutoplaying1" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={merge3} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
+      <img src={merge7} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
     </div>
     <div className="carousel-item">
-      <img src={merge5} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
+      <img src={merge8} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
     </div>
     <div className="carousel-item">
-      <img src={merge6} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
+      <img src={merge9} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="prev">
@@ -290,13 +290,13 @@ const GameDevProjects = () => {
               <div id="carouselExampleAutoplaying2" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={merge7} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
+      <img src={merge3} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
     </div>
     <div className="carousel-item">
-      <img src={merge8} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
+      <img src={merge5} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
     </div>
     <div className="carousel-item">
-      <img src={merge9} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
+      <img src={merge6} className="d-block w-100" alt="..." style={{height:"25rem"}}/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
